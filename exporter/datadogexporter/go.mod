@@ -3,18 +3,18 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datado
 go 1.21.0
 
 require (
-	github.com/DataDog/agent-payload/v5 v5.0.114
+	github.com/DataDog/agent-payload/v5 v5.0.120
 	github.com/DataDog/datadog-agent/pkg/proto v0.52.1-0.20240321095122-a3c5dbb936ae
 	github.com/DataDog/datadog-agent/pkg/trace v0.52.1-0.20240321095122-a3c5dbb936ae
-	github.com/DataDog/datadog-api-client-go/v2 v2.25.0
+	github.com/DataDog/datadog-api-client-go/v2 v2.26.0
 	github.com/DataDog/datadog-go/v5 v5.5.0
 	github.com/DataDog/gohai v0.0.0-20230524154621-4316413895ee
-	github.com/DataDog/opentelemetry-mapping-go/pkg/inframetadata v0.15.0
-	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.15.0
-	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/logs v0.15.0
-	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.15.0
-	github.com/DataDog/opentelemetry-mapping-go/pkg/quantile v0.15.0
-	github.com/DataDog/sketches-go v1.4.4
+	github.com/DataDog/opentelemetry-mapping-go/pkg/inframetadata v0.16.1
+	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.16.1
+	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/logs v0.16.1
+	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.16.1
+	github.com/DataDog/opentelemetry-mapping-go/pkg/quantile v0.16.1
+	github.com/DataDog/sketches-go v1.4.5
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp v1.22.0
 	github.com/aws/aws-sdk-go v1.51.27
 	github.com/cenkalti/backoff/v4 v4.3.0
